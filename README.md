@@ -1,7 +1,6 @@
 # trophic-tuna
 Molecular Dynamics simulation of the H88Y substitution mutation in cardiac actin (ACTC1), using GROMACS on a HPC cluster via the SLURM workload manager.
 ***
-## Subheading ##
 Nomenclature: "6DJN-1-H88Y" would mean the 6DJN pdb file with the H88Y mutation added, as a single subunit. "6DJO-8-WT" would mean the wildtype 6DJO pdb file as an 8-subunit-long filament. 
 Note: The filament takes substantially more time to perform MD on, and in retrospect 8 subunits was overkill for a primary analysis. I ended up using a 6-subunit-long filament instead, but the commands are the same for the protomer as for the polymers. The only difference to keep in mind is that the parameters (and hence parameter files) differ, though I have included both files in the repository. 
 
